@@ -112,7 +112,7 @@ class CaptureIP(App):
     def capture_stun(self, interface, interface_ip):
         def run_capture():
             try:
-                display_filter = f"stun and (ip.src == {interface_ip} or ip.dst == {interface_ip})"
+                display_filter = f"stun and ip.dst == {interface_ip}"
 
                 self.tshark_process = subprocess.Popen(
                     ["tshark", "-i", interface, "-Y", display_filter, "-l"],
@@ -132,8 +132,8 @@ class CaptureIP(App):
                             dest_ip = ips[1]
 
                             title = Text("Target STUN Packet Found", style="bold bright_green", justify="center")
-                            src_line = Text(f"Your IP: ", style="bold white") + Text(src_ip, style="bold red")
-                            dest_line = Text(f"Target IP: ", style="bold white") + Text(dest_ip, style="bold cyan")
+                            src_line = Text(f"Target IP: ", style="bold white") + Text(src_ip, style="bold red")
+                            dest_line = Text(f"Your IP: ", style="bold white") + Text(dest_ip, style="bold cyan")
                             note = Text("Packet captured successfully.", style="dim yellow")
 
                             packet_panel = Panel(
