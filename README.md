@@ -35,7 +35,7 @@
 
 <div align="center" style="margin-top: 20px;">
   <div style="border-radius: 15px; padding: 8px; border: 1px solid #444; background: #111; box-shadow: 0 0 25px rgba(0, 242, 255, 0.15);">
-    <img src="https://raw.githubusercontent.com/goruha/goruha/main/Panda.gif" alt="Demo GIF" style="border-radius: 10px; width: 100%; max-width: 750px;">
+    <img src="https://raw.githubusercontent.com/Cyber0x3a/stun-sniffer/main/res/demo.gif" alt="Demo GIF" style="border-radius: 10px; width: 100%; max-width: 750px;">
   </div>
   <p style="color: #889; font-style: italic; margin-top: 10px;">(Application Demo)</p>
 </div>
@@ -130,7 +130,7 @@ Running the application is straightforward.
 1.  **Execute the main script from your terminal:**
 
     ```bash
-    python capture_stun.py
+    python main.py
     ```
 
 2.  **Inside the TUI:**
@@ -167,14 +167,12 @@ This tool is useful for network diagnostics and understanding STUN-based connect
 
 See the [open issues](https://github.com/cyber0x3a/stun-sniffer/issues) for a full list of proposed features and known issues.
 
-- [ ] **TUI Enhancements:** Add real-time counters and colored banners.
-- [ ] **Logging:** Implement an option to log captured packets to a file.
+- [ ] **Logging:** Implement an option to log captured packets to a pcap file.
 - [ ] **Cross-Platform:** Improve compatibility and testing for Linux & macOS.
-- [ ] **Error Handling:** Add robust checks for `tshark` permissions.
-- [ ] **Packet Details:** Create a detailed view for decoded packet information.
+- [ ] **Error Handling:** Add checks for `tshark` permissions.
 
 ---
 
 <div align="center">
-  <h3 style="color: #ddd;">✨ Built with passion for cyber security enthusiasts ✨</h3>
+  <h3 style="color: #ddd;">✨ Built with passion for Cyber Security enthusiasts ✨</h3>
 </div>
