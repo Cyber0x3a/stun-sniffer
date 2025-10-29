@@ -37,7 +37,6 @@
   <div style="border-radius: 15px; padding: 8px; border: 1px solid #444; background: #111; box-shadow: 0 0 25px rgba(0, 242, 255, 0.15);">
     <img src="https://raw.githubusercontent.com/Cyber0x3a/stun-sniffer/main/res/demo.gif" alt="Demo GIF" style="border-radius: 10px; width: 100%; max-width: 750px;">
   </div>
-  <p style="color: #889; font-style: italic; margin-top: 10px;">(Application Demo)</p>
 </div>
 
 ### ✨ **Key Features**
